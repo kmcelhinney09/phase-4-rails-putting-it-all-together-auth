@@ -15,6 +15,7 @@ function RecipeList() {
 
   return (
     <Wrapper>
+      {console.log(recipes)}
       {recipes.length > 0 ? (
         recipes.map((recipe) => (
           <Recipe key={recipe.id}>
